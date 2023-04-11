@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+}
+
+.header_app {
+  background: #000000;
+  color: white;
+  padding: 10px;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 2px solid white;
+  justify-content: space-around;
+}
+
+.header_app__title {
+  text-decoration: none;
+  color: white;
+}
+
+.header_app__title__container {
+  display: flex;
+  align-items: center;
+}
+
+.header_icon {
+  font-size: 48px;
+  margin-right: 1rem;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+}
+
+.favorites {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.sub_nav {
+  background-color: #ebebeb;
+  color: black;
+}
+
+.sub_nav_container {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.forecast_links {
+  text-decoration: none;
+  color: #000000;
+  padding: 0.5rem;
+  margin: 50px;
+  font-size: 20px;
+}

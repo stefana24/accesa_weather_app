@@ -1,0 +1,48 @@
+.title {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 40px;
+}
+
+.container {
+  /* background-image: url("../../images/fav.jpg");
+  background-size: cover; */
+  height: 100vh;
+}
+
+.cities_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 600px) {
+  .cities_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .cities_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.city {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.city__name {
+  font-size: 24px;
+}
+
+.city__temperature {
+  font-size: 22px;
+}

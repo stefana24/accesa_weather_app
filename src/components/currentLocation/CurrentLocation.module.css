@@ -1,0 +1,28 @@
+.currentContainer {
+  font-size: 20px;
+}
+.temperatureContainer {
+  display: flex;
+  align-items: center;
+}
+
+.temperature {
+  font-size: 30px;
+}
+
+.description {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.addBtnContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBtn {
+  padding: 10px;
+  border-radius: 20px;
+}

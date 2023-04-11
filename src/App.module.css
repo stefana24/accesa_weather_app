@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_app[data-theme="light"] {
+  --bg-color: #537fe7;
+}
+.main_app[data-theme="dark"] {
+  --bg-color: #205295;
+}
+
+.main_app {
+  background-color: var(--bg-color);
+  min-height: 800px;
+  position: relative;
+}
+
+.footer_app {
+  background-color: #000000;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
